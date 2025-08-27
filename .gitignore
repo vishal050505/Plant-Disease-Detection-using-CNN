@@ -1,0 +1,21 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+tensorflow_env/
+
+# Ignore OS/system files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore large model/data files
+*.h5
+*.ckpt
+*.pkl
+dataset/
